@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: aplha-blog2_production
-  username: aplha-blog2
-  password: <%= ENV['APLHA-BLOG2_DATABASE_PASSWORD'] %>
+  username: mylosh
+  password: <%= ENV['mlljr7'] %>
