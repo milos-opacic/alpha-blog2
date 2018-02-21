@@ -16,6 +16,11 @@ $navbar-default-bg: black;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+}
+
 #logo {
 	float: left;
 	font-size: 1.7em;
@@ -35,7 +40,7 @@ $navbar-default-bg: black;
 }
 
 .container {
-	width: 95%;
+	width: 100%;
     white-space: nowrap;
 }
 
@@ -71,6 +76,16 @@ $navbar-default-bg: black;
 	margin-top: 0;
 }
 
+.article-title {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.article-body {
+	border-top: 1px solid #eaeaea;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
 footer {
 	margin-top: 45px;
 	padding-top: 5px;
